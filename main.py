@@ -55,7 +55,7 @@ def first_part_minigame(frame, green_zone_position, green_zone_size):
     roi_height = 120
     roi_width = int(w // 2.2)
     roi_x = (w - roi_width) // 2
-    roi_y = h - roi_heightgi
+    roi_y = h - roi_height
 
     roi = frame[roi_y:roi_y + 39, roi_x:roi_x + roi_width]
 
